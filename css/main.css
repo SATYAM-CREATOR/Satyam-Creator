@@ -1,0 +1,407 @@
+@import url('https://fonts.googleapis.com/css2?family=Carter+One&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Just+Another+Hand&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
+
+.bg-50-light{
+    background-color: rgba(14, 0, 14, 0.651);
+    backdrop-filter: blur(2px);
+    
+}
+
+.social__item .social__img{
+    width: 25px;
+}
+
+.teamitem{
+    /* display: none; */
+    position: absolute;
+    bottom: 20px;
+    transition: all 0.4s ease-in-out;
+    opacity: 0;
+}
+
+
+.ourteam:hover .teamitem {
+    /* display: block; */
+    position: absolute;
+    bottom: -15px;
+    background-color: white;
+    transition: all 0.4s ease-in-out;
+    opacity: 1;
+
+}
+.team-link{
+text-decoration: none;
+}
+
+.link-light{
+    color: white;
+    text-decoration: none;
+}
+
+.py-6{
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.font1{ font-family: 'Carter One', cursive;}
+.font2{font-family: 'Lobster', sans-serif;}
+.font3{font-family: 'Just Another Hand', cursive;}
+.font4{font-family: 'Young Serif', serif;}
+
+.img-cover{
+    /* background-color: rgb(206, 0, 206);
+    background-blend-mode: hard-light; */
+    background-size: cover;
+    background-position:  center center;
+    background-attachment: fixed;
+}
+.applogo{
+    width: 90px;
+}
+
+@media screen and (max-width:600px) {
+    .applogo{
+        width: 60px;
+    }
+    
+}
+
+.bg-shadow{
+    background-color: rgba(137, 43, 226, 0.329);
+}
+
+.a-link{
+    color: white;
+    text-decoration: none;
+}
+.a-link:hover{
+    color: rgb(255, 230, 0);
+}
+
+.text-dark-pruple{color:#10001f;}
+.bg-red{background-color: #c70101; transition:  all 0.2s ease-in-out;}
+.bg-blue{background-color: #0140c7; transition:  all 0.2s ease-in-out;}
+.bg-green{background-color: #1e9400; transition:  all 0.2s ease-in-out;}
+
+
+.bg-red:hover{background-color: rgb(156, 1, 1); box-shadow: 0px 0px 8px 3px rgb(255, 1, 1); transition:  all 0.2s ease-in-out;}
+.bg-blue:hover{background-color: rgb(0, 43, 134);box-shadow: 0px 0px 8px 3px #006eff; transition:  all 0.2s ease-in-out;}
+.bg-green:hover{background-color: rgb(21, 105, 0);box-shadow: 0px 0px 8px 3px #33ff00; transition:  all 0.2s ease-in-out;}
+
+.shape-fill1{
+    fill: rgb(255, 255, 255);
+    border: none;
+}
+
+.bg-lights{ background-color: white;}
+.numbering{
+ text-shadow: 2px 2px 5px #000000;
+}
+.bg-purple{
+    background-color: rgb(255, 255, 255);
+}
+
+.btn-purple{
+    white-space: nowrap;
+    font-weight: bold;
+    text-shadow: 2px 2px 3px rgba(136, 0, 136, 0.5);
+    background: linear-gradient(15deg, #680068, #91024b, #aa2068, #880088);
+    color: #FFF;
+    background-size: 300%;
+    background-position: left center;
+    background-repeat: no-repeat;
+    transition: background .3s ease;
+    border: 3px solid orange;
+}
+
+.btn-purple:hover{
+    background-size: 320%;
+    background-position: right center;
+    border: 3px solid orange;
+}
+
+/* .end-cap{
+    grid-column: 1/-1;
+    padding: 0;
+    height: 50px;
+    background-image: url('../img/svg.svg');
+    fill: rgb(16, 0, 31);
+    background-repeat: no-repeat;
+    background-size: 100% 50px;
+    background-position: bottom center;
+} */
+
+.border-purple{border: 3px solid #880088;}
+.a-dark-link{color: #880088; text-decoration: none;}
+.numbers{
+    background: #2e1200;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.cards-red{
+    background-color: #e40101;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 2000 1200'%3E%3Cpath fill='none' stroke='%23cc0000' stroke-width='128' d='M0 0v5000M0 0l312.5 4687.5M0 0l625 4375M0 0l937.5 4062.5M0 0l1250 3750M0 0l1562.5 3437.5M0 0l1875 3125M0 0l2187.5 2812.5M0 0l2500 2500M0 0l2812.5 2187.5M0 0l3125 1875M0 0l3437.5 1562.5M0 0l3750 1250M0 0l4062.5 937.5M0 0l4375 625M0 0l4687.5 312.5M0 0h5000'/%3E%3C/svg%3E");
+    background-size: cover;
+border: 1px solid #fa4343;
+
+}
+
+.cards-green{
+    background-color: #22a800;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 2000 1200'%3E%3Cpath fill='none' stroke='%231e9400' stroke-width='128' d='M0 0v5000M0 0l312.5 4687.5M0 0l625 4375M0 0l937.5 4062.5M0 0l1250 3750M0 0l1562.5 3437.5M0 0l1875 3125M0 0l2187.5 2812.5M0 0l2500 2500M0 0l2812.5 2187.5M0 0l3125 1875M0 0l3437.5 1562.5M0 0l3750 1250M0 0l4062.5 937.5M0 0l4375 625M0 0l4687.5 312.5M0 0h5000'/%3E%3C/svg%3E");
+    background-size: cover;
+border: 1px solid #33ff00;
+
+}
+
+.cards-blue{
+    background-color: #0054c2;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 2000 1200'%3E%3Cpath fill='none' stroke='%230140c7' stroke-width='128' d='M0 0v5000M0 0l312.5 4687.5M0 0l625 4375M0 0l937.5 4062.5M0 0l1250 3750M0 0l1562.5 3437.5M0 0l1875 3125M0 0l2187.5 2812.5M0 0l2500 2500M0 0l2812.5 2187.5M0 0l3125 1875M0 0l3437.5 1562.5M0 0l3750 1250M0 0l4062.5 937.5M0 0l4375 625M0 0l4687.5 312.5M0 0h5000'/%3E%3C/svg%3E");
+    background-size: cover;
+border: 1px solid #006eff;
+
+}
+
+.bg-patten{
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1600 900'%3E%3Cdefs%3E%3ClinearGradient id='a' x1='0' x2='0' y1='1' y2='0' gradientTransform='rotate(0,0.5,0.5)'%3E%3Cstop offset='0' stop-color='%230FF'/%3E%3Cstop offset='1' stop-color='%23CF6'/%3E%3C/linearGradient%3E%3ClinearGradient id='b' x1='0' x2='0' y1='0' y2='1'%3E%3Cstop offset='0' stop-color='%23F00'/%3E%3Cstop offset='1' stop-color='%23FC0'/%3E%3C/linearGradient%3E%3C/defs%3E%3Cg fill='%23FFF' fill-opacity='0' stroke-miterlimit='10'%3E%3Cg stroke='url(%23a)' stroke-width='3.3'%3E%3Cpath transform='translate(-15.75 -2) rotate(-2.75 1409 581) scale(0.9748499999999999)' d='M1409 581 1450.35 511 1490 581z'/%3E%3Ccircle stroke-width='1.1' transform='translate(-30 15) rotate(-0.5 800 450) scale(0.9979849999999999)' cx='500' cy='100' r='40'/%3E%3Cpath transform='translate(-2.5 0) rotate(-10 401 736) scale(0.9979849999999999)' d='M400.86 735.5h-83.73c0-23.12 18.74-41.87 41.87-41.87S400.86 712.38 400.86 735.5z'/%3E%3C/g%3E%3Cg stroke='url(%23b)' stroke-width='1'%3E%3Cpath transform='translate(90 4) rotate(-1 150 345) scale(1.00495)' d='M149.8 345.2 118.4 389.8 149.8 434.4 181.2 389.8z'/%3E%3Crect stroke-width='2.2' transform='translate(-5 -42.5) rotate(-18 1089 759)' x='1039' y='709' width='100' height='100'/%3E%3Cpath transform='translate(-34 6) rotate(-3 1400 132) scale(0.95)' d='M1426.8 132.4 1405.7 168.8 1363.7 168.8 1342.7 132.4 1363.7 96 1405.7 96z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+
+    background-size: cover;
+}
+
+
+.flip{
+    transform: rotate(180deg);
+}
+ .bg-pinky{background-color: #680068;}
+
+.sliderhero{
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+}
+
+.sl1{
+    background-image: url('../img/lca.jpg');
+}
+.sl2{
+    background-image: url('../img/l-s1.jpg');
+}
+.sl3{
+    background-image: url('../img/l-s2.jpg');
+}
+.sl4{
+    background-image: url('../img/l-s3.jpg');
+}
+
+.sl5{
+    background-image: url('../img/l-s4.jpg');
+}
+
+
+@media screen and (max-width:600px) {
+    .sl1{
+        background-image: url('../img/m-lca.jpg');
+    }
+    .sl2{
+        background-image: url('../img/m-s1.jpg');
+    }
+    .sl3{
+        background-image: url('../img/m-s2.jpg');
+    }
+    .sl4{
+        background-image: url('../img/m-s3.jpg');
+    }
+    
+    .sl5{
+        background-image: url('../img/m-s4.jpg');
+    }
+    
+}
+
+
+
+/* ==============================footer====================================== */
+footer{
+    background-color: #680068;
+
+}
+
+.menu-icon__line{
+    box-shadow: 1px 1px 2px #180018;
+}
+
+.inner{
+    border: 3px solid orange;
+}
+
+.inner:hover{
+    border: 3px solid orange;
+    box-shadow: 0px 0px 5px 2px orange;
+}
+.inner .glightbox img{
+    transform: rotate(0deg) scale(1.0);
+    transition: all 0.3s ease-in-out;
+}
+
+.inner:hover .glightbox img{
+    transform: rotate(5deg) scale(1.1);
+    transition: all 0.3s ease-in-out;
+}
+
+/* .teamtitle{
+    position: relative;
+    bottom: 95px;
+    background-color: rgba(255, 166, 0, 0.644);
+    color: #10001f;
+} */
+
+
+@media screen and (max-width:600px) {
+    .logo-wrap {
+        position: absolute;
+        display: block;
+        left: 30px;
+        top: 0px;
+        cursor: pointer;
+    }
+
+    .skills h3.h5{
+        font-size: 1rem;
+    }
+
+    .icon-skills{
+        width: 40px;
+        height: 40px; 
+        margin-bottom: 10px;
+    }
+}
+
+.icon-skills{
+    width: 80px;
+    height: 80px; 
+    margin-bottom: 10px;
+}
+
+.card-imgs {
+    width: 100%;
+    height: 100px;
+    aspect-ratio: 1 / 1;
+    -o-object-fit: contain;
+    object-fit: contain;
+}
+
+
+.btn-mode{
+   cursor: pointer;
+}
+
+.dropdown-width{
+    min-width: 120px !important;
+}
+
+
+
+/* Styling for the call button */
+.call-button {
+    position: fixed;
+    bottom: 130px;
+    right: 10px;
+    background-color: #28a745;
+    color: white;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border-radius: 50px;
+    font-size: 18px;
+    text-decoration: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s ease;
+    z-index: 1000; /* Ensures the button is on top of other elements */
+}
+
+/* Hover effect for the button */
+.whatsapp-button:hover {
+    background-color: #218838;
+}
+
+
+.whatsapp-button {
+    position: fixed;
+    bottom: 75px;
+    right: 10px;
+    background-color: #28a745;
+    color: white;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border-radius: 50px;
+    font-size: 18px;
+    text-decoration: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s ease;
+    z-index: 1000; /* Ensures the button is on top of other elements */
+}
+
+/* Hover effect for the button */
+.whatsapp-button:hover {
+    background-color: #218838;
+}
+
+
+/* Back to Top Button Styling */
+#backToTopBtn {
+    position: fixed;
+    bottom: 20px;
+    right: 10px;
+    background-color: #007aec;
+    color: white;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border-radius: 50px;
+    font-size: 18px;
+    text-decoration: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s ease;
+    z-index: 1000; /* Ensures the button is on top of other elements */
+    cursor: pointer;
+    transition: opacity 0.4s ease-in-out, transform 0.3s ease-in-out;
+    visibility: hidden;
+  }
+  
+  #backToTopBtn:hover {
+    background-color: #0056b3;
+  }
+  
+  #backToTopBtn.show {
+    visibility: visible;
+    opacity: 1;
+    transform: translateY(0);
+    transition: opacity 0.4s ease-in-out, transform 0.3s ease-in-out;
+  }
+  
+  #backToTopBtn.hide {
+    opacity: 0;
+    transform: translateY(100px);
+    transition: opacity 0.4s ease-in-out, transform 0.3s ease-in-out;
+  }
+
+  .logo-text{
+    font-size: 2rem;
+    line-height: 95%;
+  }
+  

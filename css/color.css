@@ -1,0 +1,44 @@
+:root {
+    --bs-body-bg: var(--bs-light);
+    --bs-body-color: var(--bs-dark);
+    --bs-body-perple: #ffffff;
+  }
+  
+  .dark-mode {
+    --bs-body-bg: var(--bs-dark);
+    --bs-body-color: var(--bs-light);
+    --bs-body-perple: #10001f;
+  }
+
+  
+  body {
+    background-color: var(--bs-body-perple);
+    color: var(--bs-body-color);
+  }
+  
+
+  .text-white {
+    color: var(--bs-body-color)!important;
+  }
+
+  .bg-dark-purple{
+    background-color: var(--bs-body-perple);
+  }
+
+  .btn-outline-cv{
+    color: var(--bs-body-color)!important;
+    border-color: var(--bs-body-color)!important;
+  }
+
+  .svg-path{
+    fill: var(--bs-body-perple);
+  }
+  .border-light{
+    border-color: var(--bs-body-color)!important;
+  }
+
+  .dropdown-menu-dark{
+    background-color: var(--bs-body-color);
+    padding: 0;
+  }
+  
