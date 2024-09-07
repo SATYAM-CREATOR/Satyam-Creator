@@ -322,8 +322,8 @@ body.nav-active .nav {
 	visibility: visible;
 }
 body.nav-active .nav:before, body.nav-active .nav:after {
-    width: 240px;
-    height: 330px;
+	width: 172px;
+    height: 254px;
     border-radius: 15px;
 }
 body.nav-active .nav:after {
