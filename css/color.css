@@ -45,4 +45,8 @@
     background-color: var(--bs-body-color);
     padding: 0;
   }
+  .icon-close{
+    color: var(--bs-body-color)!important;
+    cursor: pointer;
+  }
   
